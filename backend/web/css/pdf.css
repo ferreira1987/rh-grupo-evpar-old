@@ -1,0 +1,43 @@
+table {
+    font-family: 'Arial';
+    font-size: 12px;
+}
+
+td {
+    border: 1px solid #26214e;
+    padding: 0 5px 0 5px;
+    text-transform: uppercase;
+    padding-bottom: 4px;
+    vertical-align: top;
+}
+
+.bg-dark {
+    background-color: #26214e !important;
+    padding: 8px 5px;
+}
+
+.bg-dark td {
+    color: #fff;
+    vertical-align: middle !important;
+    text-align: center;
+}
+
+.bg-dark .data{
+    background: #fff;
+    color: black !important;
+    text-align: left;
+}
+.bg-dark .left{
+    text-align: left;
+}
+
+.label {
+    display: inline;
+    color: #26214e;
+    border-top: 2px solid #fff;
+    font-size: 8px !important;
+}
+.grid td{
+    display: none !important;
+    border: 0;
+}
